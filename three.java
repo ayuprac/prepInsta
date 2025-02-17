@@ -7,12 +7,19 @@ public class three {
        /*  int sum = (num*(num+1))/2;
         System.out.println("the sum of "+num+" natural numbers is : "+sum);*/
         //using for loop
-        int sum = 0;
+        /*int sum = 0;
 
         for(int i=1;i<=num;i++){
          sum = sum+i;
         }
-        System.out.println("the sum of "+num +" natural numbers is "+sum);  
-
+        System.out.println("the sum of "+num +" natural numbers is "+sum);  */
+      //Using recursion
+      int sum = getSum(num);
+      System.out.println(sum);
+    }
+    static int getSum (int n){
+        if (n==0)
+        return n;
+        return n + getSum(n-1);
     }
 }
