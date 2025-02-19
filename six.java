@@ -11,12 +11,13 @@ public class six{
         }else{
             System.out.println("both are equal");
         }*/
-        
+        /*Using ternary operator________________________ 
         if(a==b){System.out.println("both are equal");}
         else{
             int temp = a > b ? a : b ;
-            System.out.println(temp+ "is largest");
-        }
+            System.out.println(temp+ " is largest");
+        }*/
+        System.out.println(Math.max(a, b) + " is greater");
 
     }
 }
