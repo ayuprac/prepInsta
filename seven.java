@@ -1,7 +1,7 @@
 // Using && operator
 public class seven{
     public static void main(String[] args) {
-        int a = 400,b=60,c=8000;
+        int a = 40,b=60,c=800;
         /* 
         if(a>b && a>c){
         System.out.println(a+ " is greater");
