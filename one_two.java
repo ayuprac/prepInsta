@@ -25,11 +25,11 @@ public class one_two{
     
     public static void main(String[] args) {
         //using ternary operator
-        /* 
+        
         int num = 20;
         String status = num%2==0 ? " is even" : " is odd";
         System.out.println(num + status);
-        */
+        
     }
     
 }
