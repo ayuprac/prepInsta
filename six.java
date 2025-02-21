@@ -17,6 +17,8 @@ public class six{
             int temp = a > b ? a : b ;
             System.out.println(temp+ " is largest");
         }*/
+
+        //Using inbuilt Math.max function
         System.out.println(Math.max(a, b) + " is greater");
 
     }
