@@ -21,6 +21,7 @@ public class ten {
         }
         return true;
     }
+    // following is the inefficien code since it uses n/2. So better go by Math.sqrt
     static boolean isprime2(int n){
       int count = 0;
     if(n<2)
