@@ -2,7 +2,7 @@ public class sixteen {
     public static void main(String[] args)
     {
         //variables initialization
-        int num = 1634, reverse = 0;
+        int num = 1630, reverse = 0;
         int len = order(num);
 
         if (num == getArmstrongSum(num, len))
