@@ -11,7 +11,7 @@ public class fourteen
     else
       System.out.println (num + " is not Palindrome");
   }
-  //Using recursion 
+//Using recursion 
   static int getReverse(int num, int rev){
     if(num == 0)
         return rev;
