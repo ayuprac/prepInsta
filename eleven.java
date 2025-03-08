@@ -10,7 +10,7 @@ public class eleven {
          System.out.println(sum);*/
         System.out.println("Sum of digits:"+ getSum(num));
    
-    }//recursion approach
+    }
     static int getSum (int num){
     if (num ==0)
     return 0;
