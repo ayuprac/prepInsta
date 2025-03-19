@@ -13,7 +13,7 @@ public class ten {
        
     }
     static boolean isPrime(int n){
-        int count = 0 ;
+        //int count = 0 ;
         if(n<2)return false;
         for(int i = 2;i<=Math.sqrt(n); i++){
             if(n % i ==0)

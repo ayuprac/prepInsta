@@ -8,6 +8,8 @@ public class eleven {
             num = num/10;
         }
          System.out.println(sum);*/
+
+         //Using recurssion: 
         System.out.println("Sum of digits:"+ getSum(num));
    
     }
