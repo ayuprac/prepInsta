@@ -18,7 +18,7 @@ public class six{
             System.out.println(temp+ " is largest");
         }*/
 
-        //Using inbuilt Math.max function
+       //Using inbuilt Math.max fuction
         System.out.println(Math.max(a, b) + " is greater");
 
     }
