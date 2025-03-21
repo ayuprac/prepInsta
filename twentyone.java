@@ -1,3 +1,4 @@
+//Power code
 public class twentyone {
     public static void main(String[] args){
         double base = 1.5;
