@@ -1,8 +1,8 @@
 //Power code
 public class twentyone {
     public static void main(String[] args){
-        double base = 1.5;
-        double expo1 = 2.5;
+        double base = 2;
+        double expo1 = 2;
         double expo2 = -2.5;
         double res1,res2;
 
